@@ -1,4 +1,4 @@
-# cans0003.github.io
+# Stephanie's Portfolio
 ==================
 
 Stephanie Dawn's Portfolio Website.
