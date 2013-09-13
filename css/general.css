@@ -1,0 +1,267 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	min-width: 240px;
+	max-width: 3000px;
+}
+
+body {
+	background-color: #fff;
+	min-width: 240px;
+	max-height: 1300px;
+	width: 100%;
+}
+
+.biography h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.5em;
+	padding: 0 4.5%;
+	color: #CCf;
+	margin: 0;
+	background-color: #333;
+}
+
+.blurb {
+	border-radius: 5%;
+	border-width: thin;
+	border-color: #CCC;
+	box-shadow: 5px 3px 10px #888;
+}
+
+.firstline {
+	font-size: 1.5em;
+}
+
+.blurb p {
+	color: #333;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 2%;
+}
+
+img {
+	width: 100%;
+	padding: 10% 0;
+}
+
+.socialmedia {
+	background-color: #333;
+	width: 100%;
+}
+
+.social-fb {
+	width: 15%;
+	margin-right: 0;
+	display: inline-block;
+	padding: 2%;
+	padding-left: 5%;
+}
+
+.social-tw {
+	width: 15%;
+	margin: 0;
+	margin-bottom: 1%;
+	display: inline-block;
+	padding: 2%;
+}
+
+.social-vim {
+	width: 15%;
+	margin: 0;
+	display: inline-block;
+	padding: 2%;
+}
+
+@media only screen and (min-width: 25em) {
+	
+	.biography h1 {
+		font-size: 4.5em;
+	}
+	
+}
+
+@media only screen and (min-width: 27em) {
+	
+	img {
+		width: 70%;
+		padding-left: 12%;
+	}
+	
+}
+
+@media only screen and (min-width: 31em) {
+	
+	img {
+		width: 50%;
+		padding-left: 40%;
+	}
+	
+	.biography h1 {
+		font-size: 3.5em;
+	}
+	
+	.socialmedia {
+	background-color: #333;
+	width: 75%;
+	float: right;
+}
+
+.social-fb {
+	width: 15%;
+	margin-right: 0;
+	display: inline-block;
+	padding: 2% 0 0 45%;
+}
+
+.social-tw {
+	width: 15%;
+	margin: 0;
+	margin-bottom: 1%;
+	padding: 0;
+}
+
+.social-vim {
+	width: 15%;
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+}
+	
+}
+
+@media only screen and (min-width: 38em) {
+	
+	.biography {
+		width: 80%;
+	}
+	
+	.biography h1 {
+		font-size: 3.5em;
+	}
+	
+	.blurb {
+	border-radius: 5%;
+	border-width: thin;
+	border-color: #CCC;
+	box-shadow: 5px 3px 10px #888;
+	width: 50%;
+	padding-left: 30%;
+}
+
+.firstline {
+	font-size: 1.5em;
+}
+
+.blurb p {
+	color: #333;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 2%;
+}
+	
+}
+
+@media only screen and (min-width: 45em) {
+	
+	.blurb {
+		border: none;
+		padding: 0;
+		box-shadow: none;
+}
+
+	.blurb p {
+		padding-left: 45%;
+		margin: 0;
+	}
+	
+	.socialmedia img {
+		max-width: 50%;
+		padding: -10%;
+}
+
+@media only screen and (min-width: 65em) {
+	
+	body {
+		width: 90%;
+	}
+	
+	.biography {
+		padding-left: 20%;
+	}
+	
+	.biography h1 {
+		font-size: 2em;
+		padding-left: 5%;
+	}
+	
+	img {
+		width: 30%;
+		padding-left: 50%;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+	
+	.blurb {
+		border: none;
+		padding: 0;
+		box-shadow: none;
+		margin-right: 25%;
+		float: right;
+}
+
+	.blurb p {
+		padding-left: 50%;
+		margin: 0;
+	}
+
+	.socialmedia {
+		height: 80px;
+		float: right;
+		width: 50%;
+	}
+	
+	.biography {
+		width: 80%;
+		float: left;
+	}
+	
+	.social-fb {
+	width: 25%;
+	padding-left: 5%;
+	padding-right: -10%;
+	margin-right: -10%;
+}
+
+.social-tw {
+	width: 25%;
+	margin-right: -10%;
+}
+
+.social-vim {
+	width: 25%;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
