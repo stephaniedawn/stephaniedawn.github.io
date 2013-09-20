@@ -16,10 +16,47 @@ body {
 	width: 100%;
 }
 
+nav {
+	color: #CCF;
+	width: 250px;
+}
+
+nav a {
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+	text-transform:uppercase;
+	padding: 2%;
+}
+
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	background-color: #CCF;
+	height: 43px;
+	width: 50px;
+	border-top-left-radius: 6%;
+	border-top-right-radius: 6%;
+}
+
+nav a.selected,
+nav a.selected:link {
+	background-color: #333;
+	color: #FFF;
+	height: 43px;
+	border-top-left-radius: 6%;
+	border-top-right-radius: 6%;
+}
+
+.biography {
+	padding-bottom: 5%;
+}
+
 .biography h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 2.5em;
-	padding: 0 4.5%;
+	padding: 5% 4.5%;
 	color: #CCf;
 	margin: 0;
 	background-color: #333;
@@ -30,21 +67,32 @@ body {
 	border-width: thin;
 	border-color: #CCC;
 	box-shadow: 5px 3px 10px #888;
+	padding-top: 5%;
 }
 
 .firstline {
 	font-size: 1.5em;
+	padding-left: 2%;
 }
 
 .blurb p {
 	color: #333;
 	font-family:Arial, Helvetica, sans-serif;
-	padding: 2%;
+	padding: 4%;
+	margin: 0;
 }
 
 img {
 	width: 100%;
 	padding: 10% 0;
+}
+
+.stephanie img {
+	border-color: #CCF;
+	border-width:thick;
+	border-style: solid;
+	padding: 0;
+	width: 96%;
 }
 
 .socialmedia {
@@ -100,35 +148,92 @@ img {
 	}
 	
 	.biography h1 {
-		font-size: 3.5em;
+		font-size: 5em;
 	}
+	
+	
+nav {
+	color: #CCF;
+	width: 250px;
+	padding-left: 50%;
+}
+
+nav a {
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform:uppercase;
+	padding: 2%;
+}
+
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	background-color: #CCF;
+	height: 43px;
+	width: 100px;
+	border-top-left-radius: 6%;
+	border-top-right-radius: 6%;
+}
+
+nav a.selected,
+nav a.selected:link {
+	background-color: #333;
+	color: #FFF;
+	height: 43px;
+	width: 100px;
+	border-top-left-radius: 6%;
+	border-top-right-radius: 6%;
+}
 	
 	.socialmedia {
 	background-color: #333;
-	width: 75%;
+	width: 100%;
 	float: right;
 }
 
 .social-fb {
-	width: 15%;
+	width: 25%;
 	margin-right: 0;
 	display: inline-block;
-	padding: 2% 0 0 45%;
+	padding: 2% 0 0 20%;
 }
 
 .social-tw {
-	width: 15%;
+	width: 25%;
 	margin: 0;
 	margin-bottom: 1%;
 	padding: 0;
 }
 
 .social-vim {
-	width: 15%;
+	width: 25%;
 	margin: 0;
 	display: inline-block;
 	padding: 0;
 }
+
+.blurb {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.firstline {
+	font-size: 2em;
+	padding-left: 0;
+}
+
+.blurb p {
+	color: #333;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 4%;
+	padding-top: 0;
+	margin: 0;
+	font-size: 1.25em;
+}
+
 	
 }
 
@@ -163,105 +268,80 @@ img {
 	
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 43em) {
 	
 	.blurb {
-		border: none;
-		padding: 0;
-		box-shadow: none;
-}
-
-	.blurb p {
-		padding-left: 45%;
-		margin: 0;
+		margin-left: 10%;
+		padding: 10%;
 	}
 	
-	.socialmedia img {
-		max-width: 50%;
-		padding: -10%;
+	.firstline {
+		padding-bottom: 5%;
+	}
+	
+	.social-fb {
+	width: 15%;
+	margin-right: 0;
+	display: inline-block;
+	padding: 2% 0 0 44%;
+}
+
+.social-tw {
+	width: 15%;
+	margin: 0;
+	margin-bottom: 1%;
+	padding: 0;
+}
+
+.social-vim {
+	width: 15%;
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+}
+
+
+.stephanie img {
+	width: 50%;
+	padding: 5%;
+	padding-left: 25%;
+	border: none;
+}
+
 }
 
 @media only screen and (min-width: 65em) {
 	
-	body {
-		width: 90%;
+	
+	nav {
+		color: #CCF;
+		width: 250px;
+		padding-left: 70%;
 	}
 	
-	.biography {
-		padding-left: 20%;
-	}
-	
-	.biography h1 {
-		font-size: 2em;
-		padding-left: 5%;
-	}
-	
-	img {
-		width: 30%;
-		padding-left: 50%;
-		padding-top: 3%;
-		padding-bottom: 3%;
-	}
-	
-	.blurb {
-		border: none;
-		padding: 0;
-		box-shadow: none;
-		margin-right: 25%;
-		float: right;
-}
-
-	.blurb p {
-		padding-left: 50%;
-		margin: 0;
-	}
-
-	.socialmedia {
-		height: 80px;
-		float: right;
-		width: 50%;
-	}
-	
-	.biography {
-		width: 80%;
-		float: left;
+	.blurb p{
+		font-size: 1.5em;
 	}
 	
 	.social-fb {
-	width: 25%;
-	padding-left: 5%;
-	padding-right: -10%;
-	margin-right: -10%;
+	width: 15%;
+	margin-right: 0;
+	display: inline-block;
+	padding: 2% 0 0 48%;
 }
 
 .social-tw {
-	width: 25%;
-	margin-right: -10%;
+	width: 15%;
+	margin: 0;
+	margin-bottom: 1%;
+	padding: 0;
 }
 
 .social-vim {
-	width: 25%;
+	width: 15%;
+	margin: 0;
+	display: inline-block;
+	padding: 0;
 }
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
