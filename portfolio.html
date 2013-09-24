@@ -1,5 +1,14 @@
+---
+layout: default
+---
 
+	
 	
 <div class="hello">
 <h1>HELLO, FRIENDS!</h1>
 </div>
+	{% for portfolio in site.pages %}
+		{% if portfolio.category == "portfolio" %}
+	<img src="images/{{portfolio.image}}" alt="1">
+		{% endif %}
+	{% endfor %}
